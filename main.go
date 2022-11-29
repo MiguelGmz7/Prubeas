@@ -10,9 +10,9 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
   
-    for k:=0;k<=len(rns)-1;k++ {
-		if rns[k] = 3 {
-			rns[k] = ''
+    for k, r = range(rns) {
+		if r = 3 {
+			fmt.Println("hay un 3")
 		}
 	}
     return string(rns)
