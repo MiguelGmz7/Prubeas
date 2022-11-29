@@ -10,10 +10,7 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
   
-    for k, r = range(rns) {
-		fmt.Println(k, string(r))
-	}
-	
+
     return string(rns)
 }
 
@@ -26,5 +23,6 @@ func main() {
 
 	rvs := ModString(nombre)
 
+	fmt.Println(len(rvs))
 	fmt.Printf("Revertido: %s \n",rvs)
 }
