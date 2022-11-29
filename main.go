@@ -8,5 +8,5 @@ func main() {
 	fmt.Print("Ingresa tu nombre: ")
 	fmt.Scanln(&nombre)
 
-	fmt.Printf("Nombre: &s",nombre)
+	fmt.Printf("Nombre: %s",nombre)
 }
