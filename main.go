@@ -9,7 +9,12 @@ func ModString(s string) string {
         // like first with last and so on.
         rns[i], rns[j] = rns[j], rns[i]
     }
-  
+
+	for l = 0; l <= len(rns)-1; l++ {
+		if(rns[l] = 3) {
+			fmt.Println("hola")
+		}
+	}
 
     return string(rns)
 }
