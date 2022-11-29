@@ -18,11 +18,11 @@ func main() {
 
 	var nombre string
 
-	fmt.Print("Ingresa input: ")
+	fmt.Print("Ingresa isnput: ")
 	fmt.Scanln(&nombre)
 
 	rvs := ModString(nombre)
 
-	fmt.Println(len(rvs))
+	fmt.Println(range(rvs))
 	fmt.Printf("Revertido: %s \n",rvs)
 }
