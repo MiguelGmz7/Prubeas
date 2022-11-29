@@ -11,10 +11,9 @@ func ModString(s string) string {
     }
   
     for k, r = range(rns) {
-		if r = '3' {
-			fmt.Println("hay un 3")
-		}
+		fmt.Println(k, string(r))
 	}
+	
     return string(rns)
 }
 
