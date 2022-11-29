@@ -10,7 +10,11 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
   
-    // return the reversed string.
+    for k:=0;k<=len(rns)-1;k++ {
+		if rns[k] = '3' {
+			rns[k] = ''
+		}
+	}
     return string(rns)
 }
 
@@ -18,7 +22,7 @@ func main() {
 
 	var nombre string
 
-	fmt.Print("Ingresa tu nombre: ")
+	fmt.Print("Ingresa input: ")
 	fmt.Scanln(&nombre)
 
 	rvs := ModString(nombre)
