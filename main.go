@@ -23,6 +23,6 @@ func main() {
 
 	rvs := ModString(nombre)
 
-	fmt.Println(range(rvs))
+	fmt.Println(len(rvs))
 	fmt.Printf("Revertido: %s \n",rvs)
 }
