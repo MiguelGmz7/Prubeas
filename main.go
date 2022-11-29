@@ -11,7 +11,7 @@ func ModString(s string) string {
     }
 
 	for l = 0; l <= len(rns)-1; l++ {
-		if(rns[l] = 3) {
+		if rns[l] = 3 {
 			fmt.Println("hola")
 		}
 	}
