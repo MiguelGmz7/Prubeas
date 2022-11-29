@@ -11,7 +11,7 @@ func ModString(s string) string {
     }
   
     for k:=0;k<=len(rns)-1;k++ {
-		if rns[k] = '3' {
+		if rns[k] = 3 {
 			rns[k] = ''
 		}
 	}
