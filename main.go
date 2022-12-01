@@ -10,11 +10,8 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
 
-	var vacio string
-	vacio = ""
-	vns := rune[](vacio)
-	
-	rns[1] = vns
+	var v rune = ''
+	rns[1] = v
 
     return string(rns)
 }
