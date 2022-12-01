@@ -10,11 +10,8 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
 
-	for l = 0; l <= len(rns)-1; l++ {
-		if rns[l] = "3" {
-			fmt.Println("hola")
-		}
-	}
+	rep rune := "4"
+	rns[1] = rep
 
     return string(rns)
 }
