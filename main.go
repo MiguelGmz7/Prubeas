@@ -10,7 +10,7 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
 
-	rep rune := "4"
+	rep rune = "4"
 	rns[1] = rep
 
     return string(rns)
