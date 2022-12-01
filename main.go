@@ -10,8 +10,11 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
 
-	//var v rune = 0
-	rns[1] = 0
+	for k := 0; k <= len(rns)-1; k++ {
+		if (rns[k] >= 48 && rns[k] <= 57) {
+			rns[k] = 0
+		} 
+	}
 
     return string(rns)
 }
@@ -24,7 +27,5 @@ func main() {
 	fmt.Scanln(&nombre)
 
 	rvs := ModString(nombre)
-
-	fmt.Println(len(rvs))
 	fmt.Printf("Revertido: %s \n",rvs)
 }
