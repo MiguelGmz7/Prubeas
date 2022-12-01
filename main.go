@@ -13,7 +13,8 @@ func ModString(s string) string {
 	var vacio string
 	vacio = ""
 	vns := []rune(vacio)
-	 
+	
+	rns[1] = vns
 
     return string(rns)
 }
