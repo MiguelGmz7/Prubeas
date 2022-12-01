@@ -10,7 +10,7 @@ func ModString(s string) string {
         rns[i], rns[j] = rns[j], rns[i]
     }
 
-	var v rune = 255
+	var v rune = NULL
 	rns[1] = v
 
     return string(rns)
